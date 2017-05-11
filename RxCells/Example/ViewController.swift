@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import Reusable
 
 final class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -17,10 +18,14 @@ final class ViewController: UIViewController {
         
         tableView.register(cellType: SampleCell.self)
         
-        _ = Observable.just(Array(0..<100).map({ SampleModel(value: $0) }))
-            .bind(to: tableView.rx.cells(SampleCell.self))
+        _ = Observable.just(Array(0..<100)).bind(to: tableView.rx.cells(SampleCell.self))
     }
 
 
 }
 
+final class SampleCell: UITableViewCell, Configurable, Reusable {
+    func configure(with model: Int) {
+        self.textLabel?.text = "value: \(model)"
+    }
+}
