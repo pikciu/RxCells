@@ -15,9 +15,21 @@ public extension Reactive where Base: UICollectionView {
     public func cells<S: Sequence, Cell: UICollectionViewCell, O: ObservableType>(_: Cell.Type)
         -> (_ _: O)
         -> Disposable
-        where O.E == S, Cell: Reusable, Cell: Configurable, Cell.T == S.Iterator.Element {
+        where O.E == S, Cell: Reusable, Cell: Configurable, Cell.ModelType == S.Iterator.Element {
             return { source in
-                return source.bind(to: self.items(cellIdentifier: Cell.reuseIdentifier, cellType: Cell.self)) { _, model, cell in
+                return source.bind(to: self.items(cellIdentifier: Cell.reuseIdentifier, cellType: Cell.self)) { (_, model, cell) in
+                    cell.configure(with: model)
+                }
+            }
+    }
+    
+    public func cells<S: Sequence, Cell: UICollectionViewCell, O: ObservableType, D>(_: Cell.Type, withDelegate delegate: D)
+        -> (_ _: O)
+        -> Disposable
+        where O.E == S, Cell: Delegatable & Reusable, Cell: Configurable, Cell.ModelType == S.Iterator.Element, Cell.DelegateType == D {
+            return { source in
+                return source.bind(to: self.items(cellIdentifier: Cell.reuseIdentifier, cellType: Cell.self)) { (_, model, cell) in
+                    cell.delegate = delegate
                     cell.configure(with: model)
                 }
             }

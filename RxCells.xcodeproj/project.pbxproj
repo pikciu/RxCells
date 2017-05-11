@@ -16,6 +16,7 @@
 		38E4104C1EC4594000D08ED8 /* UITableView+Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4104B1EC4594000D08ED8 /* UITableView+Cells.swift */; };
 		38E4104E1EC4596100D08ED8 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4104D1EC4596100D08ED8 /* Configurable.swift */; };
 		38E410501EC45A5000D08ED8 /* UICollectionView+Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4104F1EC45A5000D08ED8 /* UICollectionView+Cells.swift */; };
+		38FA8B901EC4914800F154DA /* Delegatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA8B8F1EC4914800F154DA /* Delegatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		38E4104B1EC4594000D08ED8 /* UITableView+Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Cells.swift"; sourceTree = "<group>"; };
 		38E4104D1EC4596100D08ED8 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		38E4104F1EC45A5000D08ED8 /* UICollectionView+Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Cells.swift"; sourceTree = "<group>"; };
+		38FA8B8F1EC4914800F154DA /* Delegatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegatable.swift; sourceTree = "<group>"; };
 		65A976B62E91DDE1C2C7515A /* Pods_RxCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB53C685F31043FF8FCA7F0 /* Pods-RxCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxCells/Pods-RxCells.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				38E4104D1EC4596100D08ED8 /* Configurable.swift */,
 				38E4104F1EC45A5000D08ED8 /* UICollectionView+Cells.swift */,
 				38E4104B1EC4594000D08ED8 /* UITableView+Cells.swift */,
+				38FA8B8F1EC4914800F154DA /* Delegatable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				380D31581EC457DD004084EC /* ViewController.swift in Sources */,
 				380D31561EC457DD004084EC /* AppDelegate.swift in Sources */,
 				38E4104E1EC4596100D08ED8 /* Configurable.swift in Sources */,
+				38FA8B901EC4914800F154DA /* Delegatable.swift in Sources */,
 				38E4104C1EC4594000D08ED8 /* UITableView+Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

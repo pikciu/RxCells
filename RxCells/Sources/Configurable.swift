@@ -9,6 +9,6 @@
 import Foundation
 
 public protocol Configurable {
-    associatedtype T
-    func configure(with model: T)
+    associatedtype ModelType
+    func configure(with model: ModelType)
 }

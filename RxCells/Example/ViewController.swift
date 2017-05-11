@@ -18,14 +18,28 @@ final class ViewController: UIViewController {
         
         tableView.register(cellType: SampleCell.self)
         
-        _ = Observable.just(Array(0..<100)).bind(to: tableView.rx.cells(SampleCell.self))
+        _ = Observable.just(Array(0..<100)).bind(to: tableView.rx.cells(SampleCell.self, withDelegate: self))
     }
 
 
 }
 
-final class SampleCell: UITableViewCell, Configurable, Reusable {
+protocol SampleCellDelegate: class {
+    func someDelegateMethod()
+}
+
+final class SampleCell: UITableViewCell, Configurable, Reusable, Delegatable {
+    typealias DelegateType = SampleCellDelegate
+    
+    weak var delegate: SampleCellDelegate?
+    
     func configure(with model: Int) {
         self.textLabel?.text = "value: \(model)"
+    }
+}
+
+extension ViewController: SampleCellDelegate {
+    func someDelegateMethod() {
+        
     }
 }
