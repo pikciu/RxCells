@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'RxCells/Sources/*.swift'
   spec.framework    = 'UIKit'
   spec.ios.deployment_target  = '8.0'
-  spec.dependency 'RxSwift', '~> 3.2'
-  spec.dependency 'RxCocoa', '~> 3.2'
+  spec.dependency 'RxSwift', '~> 3.4'
+  spec.dependency 'RxCocoa', '~> 3.4'
   spec.dependency 'Reusable', '~> 4.0'
 end

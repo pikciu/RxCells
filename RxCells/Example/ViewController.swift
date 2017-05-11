@@ -18,7 +18,7 @@ final class ViewController: UIViewController {
         tableView.register(cellType: SampleCell.self)
         
         _ = Observable.just(Array(0..<100).map({ SampleModel(value: $0) }))
-            .bindTo(tableView.rx.cells(SampleCell.self))
+            .bind(to: tableView.rx.cells(SampleCell.self))
     }
 
 
