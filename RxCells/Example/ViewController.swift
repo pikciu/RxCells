@@ -28,8 +28,8 @@ protocol SampleCellDelegate: class {
     func someDelegateMethod()
 }
 
-final class SampleCell: UITableViewCell, Configurable, Reusable, Delegatable {
-    typealias DelegateType = SampleCellDelegate
+final class SampleCell: UITableViewCell, Configurable, Reusable, HasDelegate {
+    typealias Delegate = SampleCellDelegate
     
     weak var delegate: SampleCellDelegate?
     
