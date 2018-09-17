@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'RxCells'
-  spec.version      = '0.3.1'
+  spec.version      = '0.3.2'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage     = 'https://github.com/pikciu/RxCells'
   spec.authors      = { 'Tomasz Pikć' => 'tomasz.pikc@gmail.com' }
