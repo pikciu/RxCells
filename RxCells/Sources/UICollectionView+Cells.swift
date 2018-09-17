@@ -16,6 +16,7 @@ public extension Reactive where Base: UICollectionView {
         -> (_ _: O)
         -> Disposable
         where O.E == S, Cell: Reusable, Cell: Configurable, Cell.Model == S.Iterator.Element {
+            self.base.register(cellType: Cell.self)
             return { source in
                 return source.bind(to: self.items(cellIdentifier: Cell.reuseIdentifier, cellType: Cell.self)) { (_, model, cell) in
                     cell.configure(with: model)
@@ -27,6 +28,7 @@ public extension Reactive where Base: UICollectionView {
         -> (_ _: O)
         -> Disposable
         where O.E == S, Cell: HasDelegate & Reusable, Cell: Configurable, Cell.Model == S.Iterator.Element, Cell.Delegate == D {
+            self.base.register(cellType: Cell.self)
             return { source in
                 return source.bind(to: self.items(cellIdentifier: Cell.reuseIdentifier, cellType: Cell.self)) { (_, model, cell) in
                     cell.delegate = delegate

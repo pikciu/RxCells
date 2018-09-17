@@ -16,8 +16,6 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(cellType: SampleCell.self)
-        
         _ = Observable.just(Array(0..<100)).bind(to: tableView.rx.cells(SampleCell.self, withDelegate: self))
     }
 

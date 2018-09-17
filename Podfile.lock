@@ -1,23 +1,29 @@
 PODS:
-  - Reusable (4.0.0):
-    - Reusable/Storyboard (= 4.0.0)
-    - Reusable/View (= 4.0.0)
-  - Reusable/Storyboard (4.0.0)
-  - Reusable/View (4.0.0)
-  - RxCocoa (4.1.2):
+  - Reusable (4.0.3):
+    - Reusable/Storyboard (= 4.0.3)
+    - Reusable/View (= 4.0.3)
+  - Reusable/Storyboard (4.0.3)
+  - Reusable/View (4.0.3)
+  - RxCocoa (4.3.0):
     - RxSwift (~> 4.0)
-  - RxSwift (4.1.2)
+  - RxSwift (4.3.0)
 
 DEPENDENCIES:
-  - Reusable
-  - RxCocoa
-  - RxSwift
+  - Reusable (~> 4.0)
+  - RxCocoa (~> 4.2)
+  - RxSwift (~> 4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Reusable
+    - RxCocoa
+    - RxSwift
 
 SPEC CHECKSUMS:
-  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
-  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
-  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  Reusable: 12b67a60e1f3e8c523cc910795dab733f58fbc7e
+  RxCocoa: 71b9cce833fbcb89a8eec11816dd225830c2bd3c
+  RxSwift: a9717a34df3179fe63563f76e046ad345078dd3a
 
-PODFILE CHECKSUM: c32e797d8c57aad14f12dd8a64a680465ac06fad
+PODFILE CHECKSUM: 1bfaa6cf7358b02664854b8aeb679e6a148f441d
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
