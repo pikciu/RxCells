@@ -11,34 +11,14 @@ import RxSwift
 import Reusable
 
 final class ViewController: UIViewController {
-    @IBOutlet weak var tableView: UITableView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        tableView.register(cellType: SampleCell.self)
-        _ = Observable.just(Array(0..<100)).bind(to: tableView.rx.cells(SampleCell.self, withDelegate: self))
+    @IBAction func simpleBinding(_ sender: UIButton) {
+        let simpleBindingViewController = SimpleBindingViewController()
+        show(simpleBindingViewController, sender: sender)
     }
-
-
-}
-
-protocol SampleCellDelegate: class {
-    func someDelegateMethod()
-}
-
-final class SampleCell: UITableViewCell, Configurable, Reusable, HasDelegate {
-    typealias Delegate = SampleCellDelegate
     
-    weak var delegate: SampleCellDelegate?
-    
-    func configure(with model: Int) {
-        self.textLabel?.text = "value: \(model)"
-    }
-}
-
-extension ViewController: SampleCellDelegate {
-    func someDelegateMethod() {
-        
+    @IBAction func usingFactory(_ sender: UIButton) {
+        let factoryBindingViewController = UsingFactoryViewController()
+        show(factoryBindingViewController, sender: sender)
     }
 }

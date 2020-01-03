@@ -5,6 +5,6 @@ target 'RxCells' do
 
 end
 
-pod 'RxSwift', '~> 4.2'
-pod 'RxCocoa', '~> 4.2'
-pod 'Reusable', '~> 4.0'
+pod 'RxSwift', '~> 5.0'
+pod 'RxCocoa', '~> 5.0'
+pod 'Reusable', '~> 4.1'

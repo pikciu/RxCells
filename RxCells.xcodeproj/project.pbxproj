@@ -13,6 +13,22 @@
 		380D315B1EC457DD004084EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380D31591EC457DD004084EC /* Main.storyboard */; };
 		380D315D1EC457DD004084EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380D315C1EC457DD004084EC /* Assets.xcassets */; };
 		380D31601EC457DD004084EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380D315E1EC457DD004084EC /* LaunchScreen.storyboard */; };
+		3857340323BF80DE00142211 /* CollectionViewCellFactoryBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385733FC23BF80DD00142211 /* CollectionViewCellFactoryBinder.swift */; };
+		3857340423BF80DE00142211 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385733FD23BF80DD00142211 /* Binding.swift */; };
+		3857340523BF80DE00142211 /* TableViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385733FE23BF80DD00142211 /* TableViewCellFactory.swift */; };
+		3857340623BF80DE00142211 /* CollectionViewCellsBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385733FF23BF80DD00142211 /* CollectionViewCellsBinder.swift */; };
+		3857340723BF80DE00142211 /* CollectionViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857340023BF80DD00142211 /* CollectionViewCellFactory.swift */; };
+		3857340823BF80DE00142211 /* TableViewCellFactoryBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857340123BF80DD00142211 /* TableViewCellFactoryBinder.swift */; };
+		3857340923BF80DE00142211 /* TableViewCellBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857340223BF80DD00142211 /* TableViewCellBinder.swift */; };
+		3857340B23BF861C00142211 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857340A23BF861C00142211 /* Binder.swift */; };
+		3857340D23BF89D700142211 /* TableViewCellWithDelegateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857340C23BF89D700142211 /* TableViewCellWithDelegateFactory.swift */; };
+		3857340F23BF8A1200142211 /* CollectionViewCellWithDelegateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857340E23BF8A1200142211 /* CollectionViewCellWithDelegateFactory.swift */; };
+		3857341123BF8D2600142211 /* SimpleBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857341023BF8D2600142211 /* SimpleBindingViewController.swift */; };
+		3857341323BF8DA500142211 /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857341223BF8DA500142211 /* SampleCell.swift */; };
+		3857341623BF8F1700142211 /* UsingFactoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857341523BF8F1700142211 /* UsingFactoryViewModel.swift */; };
+		3857341823BF8F1F00142211 /* UsingFactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857341723BF8F1F00142211 /* UsingFactoryViewController.swift */; };
+		3857341A23BF927500142211 /* SampleCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857341923BF927500142211 /* SampleCellFactory.swift */; };
+		3857341C23BF928C00142211 /* SecondSampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857341B23BF928C00142211 /* SecondSampleCell.swift */; };
 		38E4104C1EC4594000D08ED8 /* UITableView+Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4104B1EC4594000D08ED8 /* UITableView+Cells.swift */; };
 		38E4104E1EC4596100D08ED8 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4104D1EC4596100D08ED8 /* Configurable.swift */; };
 		38E410501EC45A5000D08ED8 /* UICollectionView+Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4104F1EC45A5000D08ED8 /* UICollectionView+Cells.swift */; };
@@ -28,6 +44,22 @@
 		380D315C1EC457DD004084EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380D315F1EC457DD004084EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		380D31611EC457DD004084EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385733FC23BF80DD00142211 /* CollectionViewCellFactoryBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFactoryBinder.swift; sourceTree = "<group>"; };
+		385733FD23BF80DD00142211 /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		385733FE23BF80DD00142211 /* TableViewCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellFactory.swift; sourceTree = "<group>"; };
+		385733FF23BF80DD00142211 /* CollectionViewCellsBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellsBinder.swift; sourceTree = "<group>"; };
+		3857340023BF80DD00142211 /* CollectionViewCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFactory.swift; sourceTree = "<group>"; };
+		3857340123BF80DD00142211 /* TableViewCellFactoryBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellFactoryBinder.swift; sourceTree = "<group>"; };
+		3857340223BF80DD00142211 /* TableViewCellBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellBinder.swift; sourceTree = "<group>"; };
+		3857340A23BF861C00142211 /* Binder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
+		3857340C23BF89D700142211 /* TableViewCellWithDelegateFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellWithDelegateFactory.swift; sourceTree = "<group>"; };
+		3857340E23BF8A1200142211 /* CollectionViewCellWithDelegateFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellWithDelegateFactory.swift; sourceTree = "<group>"; };
+		3857341023BF8D2600142211 /* SimpleBindingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindingViewController.swift; sourceTree = "<group>"; };
+		3857341223BF8DA500142211 /* SampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
+		3857341523BF8F1700142211 /* UsingFactoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingFactoryViewModel.swift; sourceTree = "<group>"; };
+		3857341723BF8F1F00142211 /* UsingFactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingFactoryViewController.swift; sourceTree = "<group>"; };
+		3857341923BF927500142211 /* SampleCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCellFactory.swift; sourceTree = "<group>"; };
+		3857341B23BF928C00142211 /* SecondSampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSampleCell.swift; sourceTree = "<group>"; };
 		38E4104B1EC4594000D08ED8 /* UITableView+Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Cells.swift"; sourceTree = "<group>"; };
 		38E4104D1EC4596100D08ED8 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		38E4104F1EC45A5000D08ED8 /* UICollectionView+Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Cells.swift"; sourceTree = "<group>"; };
@@ -86,23 +118,47 @@
 		380D31671EC457F8004084EC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				385733FD23BF80DD00142211 /* Binding.swift */,
+				3857340023BF80DD00142211 /* CollectionViewCellFactory.swift */,
+				385733FC23BF80DD00142211 /* CollectionViewCellFactoryBinder.swift */,
+				385733FF23BF80DD00142211 /* CollectionViewCellsBinder.swift */,
+				3857340223BF80DD00142211 /* TableViewCellBinder.swift */,
+				385733FE23BF80DD00142211 /* TableViewCellFactory.swift */,
+				3857340123BF80DD00142211 /* TableViewCellFactoryBinder.swift */,
 				38E4104D1EC4596100D08ED8 /* Configurable.swift */,
 				38E4104F1EC45A5000D08ED8 /* UICollectionView+Cells.swift */,
 				38E4104B1EC4594000D08ED8 /* UITableView+Cells.swift */,
 				38FA8B8F1EC4914800F154DA /* HasDelegate.swift */,
+				3857340A23BF861C00142211 /* Binder.swift */,
+				3857340C23BF89D700142211 /* TableViewCellWithDelegateFactory.swift */,
+				3857340E23BF8A1200142211 /* CollectionViewCellWithDelegateFactory.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		3857341423BF8EFD00142211 /* UsingFactory */ = {
+			isa = PBXGroup;
+			children = (
+				3857341523BF8F1700142211 /* UsingFactoryViewModel.swift */,
+				3857341723BF8F1F00142211 /* UsingFactoryViewController.swift */,
+				3857341923BF927500142211 /* SampleCellFactory.swift */,
+				3857341B23BF928C00142211 /* SecondSampleCell.swift */,
+			);
+			path = UsingFactory;
 			sourceTree = "<group>";
 		};
 		38E4104A1EC458F600D08ED8 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				3857341423BF8EFD00142211 /* UsingFactory */,
 				380D31551EC457DD004084EC /* AppDelegate.swift */,
 				380D315C1EC457DD004084EC /* Assets.xcassets */,
 				380D31611EC457DD004084EC /* Info.plist */,
 				380D315E1EC457DD004084EC /* LaunchScreen.storyboard */,
 				380D31591EC457DD004084EC /* Main.storyboard */,
 				380D31571EC457DD004084EC /* ViewController.swift */,
+				3857341023BF8D2600142211 /* SimpleBindingViewController.swift */,
+				3857341223BF8DA500142211 /* SampleCell.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -145,19 +201,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					380D31511EC457DD004084EC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 99R4D8SSEQ;
-						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 380D314D1EC457DD004084EC /* Build configuration list for PBXProject "RxCells" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -211,20 +267,22 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxCells/Pods-RxCells-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RxCells/Pods-RxCells-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCells/Pods-RxCells-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxCells/Pods-RxCells-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -234,11 +292,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3857341823BF8F1F00142211 /* UsingFactoryViewController.swift in Sources */,
+				3857340323BF80DE00142211 /* CollectionViewCellFactoryBinder.swift in Sources */,
+				3857340B23BF861C00142211 /* Binder.swift in Sources */,
 				38E410501EC45A5000D08ED8 /* UICollectionView+Cells.swift in Sources */,
+				3857340723BF80DE00142211 /* CollectionViewCellFactory.swift in Sources */,
+				3857341A23BF927500142211 /* SampleCellFactory.swift in Sources */,
+				3857340923BF80DE00142211 /* TableViewCellBinder.swift in Sources */,
 				380D31581EC457DD004084EC /* ViewController.swift in Sources */,
+				3857340523BF80DE00142211 /* TableViewCellFactory.swift in Sources */,
+				3857340423BF80DE00142211 /* Binding.swift in Sources */,
 				380D31561EC457DD004084EC /* AppDelegate.swift in Sources */,
+				3857340623BF80DE00142211 /* CollectionViewCellsBinder.swift in Sources */,
+				3857340823BF80DE00142211 /* TableViewCellFactoryBinder.swift in Sources */,
+				3857341323BF8DA500142211 /* SampleCell.swift in Sources */,
+				3857341623BF8F1700142211 /* UsingFactoryViewModel.swift in Sources */,
+				3857340D23BF89D700142211 /* TableViewCellWithDelegateFactory.swift in Sources */,
+				3857340F23BF8A1200142211 /* CollectionViewCellWithDelegateFactory.swift in Sources */,
+				3857341C23BF928C00142211 /* SecondSampleCell.swift in Sources */,
 				38E4104E1EC4596100D08ED8 /* Configurable.swift in Sources */,
 				38FA8B901EC4914800F154DA /* HasDelegate.swift in Sources */,
+				3857341123BF8D2600142211 /* SimpleBindingViewController.swift in Sources */,
 				38E4104C1EC4594000D08ED8 /* UITableView+Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,13 +455,16 @@
 			baseConfigurationReference = 06CD22D38D2DCD878E29B628 /* Pods-RxCells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 99R4D8SSEQ;
 				INFOPLIST_FILE = RxCells/Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pikciu.RxCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.pikciu.RxCells";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -396,13 +473,16 @@
 			baseConfigurationReference = CFB53C685F31043FF8FCA7F0 /* Pods-RxCells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 99R4D8SSEQ;
 				INFOPLIST_FILE = RxCells/Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pikciu.RxCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.pikciu.RxCells";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
